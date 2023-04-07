@@ -2,7 +2,6 @@
 
 namespace Rpungello\LaravelLastActivity\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Rpungello\LaravelLastActivity\LaravelLastActivityServiceProvider;
 
