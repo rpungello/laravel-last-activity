@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rpungello\LaravelLastActivity\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelLastActivityCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-last-activity';
 
     public $description = 'My command';
 
