@@ -2,7 +2,6 @@
 
 namespace Rpungello\LaravelLastActivity;
 
-use Rpungello\LaravelLastActivity\Commands\LaravelLastActivityCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -17,9 +16,7 @@ class LaravelLastActivityServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-last-activity')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-last-activity_table')
-            ->hasCommand(LaravelLastActivityCommand::class);
+            ->hasConfigFile('last-activity')
+            ->hasMigration('add_last_activity_to_users_table');
     }
 }
